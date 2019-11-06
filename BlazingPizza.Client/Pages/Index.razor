@@ -1,0 +1,42 @@
+﻿@page "/"
+@inject HttpClient HttpClient
+
+<div class="main">
+    <ul class="pizza-cards">
+        @if(specials!=null)
+        {
+            @foreach (var special in specials)
+            {
+                <li @onclick="@(()=> ShowConfigurePizzaDialog(special))"   style="background-image:url('@special.ImageUrl')">
+                    <div class="pizza-info">
+                        <span class="title">@special.Name</span>
+                        @special.Description 
+                        <span class="price">@special.GetFormattedBasePrice()</span>
+                    </div>  
+                </li>
+            }
+        }
+    </ul>
+</div>
+
+
+@code{
+    List<PizzaSpecial> specials;
+    Pizza configurePizza;
+    bool showingConfigureDialog;
+    void ShowConfigurePizzaDialog(PizzaSpecial special)
+    {
+        configurePizza = new Pizza()
+        {
+            Special = special,
+            SpecialId = special.Id,
+            Size = Pizza.DefaultSize,
+            Toppings = new List<PizzaTopping>(),
+        };
+        showingConfigureDialog = true;
+    }
+    protected async override Task OnInitializedAsync()
+    {
+        specials = await HttpClient.GetJsonAsync<List<PizzaSpecial>>("specials");
+    }
+}
