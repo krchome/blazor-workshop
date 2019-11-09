@@ -274,3 +274,7 @@ G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-poin
 G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-point\BlazingPizza.Client\obj\Debug\netstandard2.0\blazor\linker\BlazingPizza.Shared.pdb
 G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-point\BlazingPizza.Client\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
 G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-point\BlazingPizza.Client\obj\Debug\netstandard2.0\blazor\blazor.boot.json
+G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-point\BlazingPizza.Client\obj\Debug\netstandard2.0\RazorDeclaration\Shared\ConfigurePizzaDialog.razor.g.cs
+G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-point\BlazingPizza.Client\obj\Debug\netstandard2.0\Razor\Shared\ConfigurePizzaDialog.razor.g.cs
+G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-point\BlazingPizza.Client\obj\Debug\netstandard2.0\RazorDeclaration\Shared\ConfiguredPizzaItem.razor.g.cs
+G:\Dropbox\Dropbox\Development-2019\blazor-workshop\save-points\00-Starting-point\BlazingPizza.Client\obj\Debug\netstandard2.0\Razor\Shared\ConfiguredPizzaItem.razor.g.cs

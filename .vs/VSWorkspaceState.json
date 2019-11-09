@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlazingPizza.Client",
+    "\\BlazingPizza.Client\\Pages",
+    "\\BlazingPizza.Client\\Shared",
+    "\\BlazingPizza.ComponentsLibrary",
+    "\\BlazingPizza.Server",
+    "\\BlazingPizza.Shared"
+  ],
+  "SelectedNode": "\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
+  "PreviewInSolutionExplorer": false
+}
